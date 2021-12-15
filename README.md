@@ -1,7 +1,11 @@
-Hello! Thank you for checking out my "Stranger Reads" project! 
-This project was made for my codecademy courseload and I had a good time making it.
-Mobile is definitely not perfect, but I tried! Still trying to figure out what went wrong, but such is the life of a life-long learner. I spent a lot of time just tweaking and truly trying to get an understanding for flexbox. My next goal is to understand how to mix Flexbox with Grid since I've read they're great together.
+# Hello! Thank you for checking out my "Stranger Reads" project!
+
+#### This project was made for my codecademy mastertrack courseload. The project goals were as follows: "In this project, you’ll be building your own club group page that will dynamically respond as you adjust the size of your screen!"
+
+Now onto the nitty gritty: The mobile optimization is definitely not perfect, but I tried! I've never had so much trouble understanding how to make a page responsive. Still trying to figure out what went wrong, but such is the life of a life-long learner. I spent a lot of time just tweaking and truly trying to get an understanding for flexbox. My next goal is to understand how to mix Flexbox with Grid since I've read they're great together.
 Anyways, I made the logos for this project too so here they are:
+
+
 ![horizontal-green-full-logo](https://user-images.githubusercontent.com/54044913/146265455-d146cec1-0c1c-4f85-b239-21b41af997da.png)
 ![horizontal-white-full-logo](https://user-images.githubusercontent.com/54044913/146265457-42c7cff8-b899-469d-a28d-0e65b631f401.png)
 ![horizontal-white-logo](https://user-images.githubusercontent.com/54044913/146265458-4fa36be6-a188-479b-8a21-2d96388cdb77.png)
