@@ -4,24 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
     <link rel="shortcut icon" href="images/logo-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <title>Book Club</title>
 </head>
 
 <body>
-    <header>
-        <nav>
+
+    <header class= ".page-header">
+
+        <div class="logo">
             <a href="#"><img src="images/horizontal-white-full-logo.png" alt="Logo" width="300px"></a>
+        </div>
+
+        <nav>
             <ul>
                 <li><a href ="#">About</a></li>
                 <li><a href ="#">Chapters</a></li>
-                <li><a href ="#">Past Books</a></li>
+                <li><a href ="#">Books</a></li>
                 <li><a href ="#">Blog</a></li>
                 <li><a href ="#">Shop</a></li>
             </ul>
-            <button>Join Us</button>
+  </a>
         </nav>
+        <button>Join Us</button>
     </header>
 
     <main>
@@ -29,38 +41,57 @@
             <h1> Welcome to Stranger Reads.</h1>
             <h3>For those who want to explore different genres and fuel their imaginations and child-like curiosities.</h3>
         </div>
+
+        <h2>Book of the Month:</h2>
         <div class="book-of-month">
-            <h2>Book of the Month:</h2>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <p><strong>Binti by Nnedi Okorafor</strong>
+                <br>
+               Synopsis: "Her name is Binti, and she is the first of the Himba people ever to be offered a place at Oomza University, the finest institution of higher learning in the galaxy. But to accept the offer will mean giving up her place in her family to travel between the stars among strangers who do not share her ways or respect her customs.
+                <br>
+                <br>
+                Knowledge comes at a cost, one that Binti is willing to pay, but her journey will not be easy. The world she seeks to enter has long warred with the Meduse, an alien race that has become the stuff of nightmares. Oomza University has wronged the Meduse, and Binti's stellar travel will bring her within their deadly reach.
+                <br>
+                <br>
+                If Binti hopes to survive the legacy of a war not of her making, she will need both the the gifts of her people and the wisdom enshrined within the University, itself -- but first she has to make it there, alive.
+                <br>
+                <br>
+                The Binti Series:
+                <br>Book 1: Binti
+                <br>Book 2: Binti: Home
+                <br>Book 3: Binti: The Night Masquerade
+                "</p>
+
             <img src= "images/books/current-binti.jpg" alt="book cover" width="500px">
         </div>
-    </main>
 
-    <section class ="pastbooks">
-        <h2>Our Past Reads</h2>
-        <p>images will be here</p>
+    </main>
+    <section class="recentreads">
+    <h2 class="sectiontitle">Recent Reads:</h2>
+    <div class ="pastbooks">
         <div class="book-container">
             <h2>Last Book:</h2>
             <img src="images/books/habibi.jpg" alt="Habibi book cover" width="350px">
-            <h3>Habibi by Craig Thompson</h3>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <h3>"Habibi" by Craig Thompson</h3>
+            <p>Synopsis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         </div>
         <div class="book-container">
-            <h2>October</h2>
+            <h2>October:</h2>
             <img src="images/books/night.jpg" alt="Night book cover" width="350">
-            <h3>Night by Elie Wiesel</h3>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <h3>"Night" by Elie Wiesel</h3>
+            <p>Synopsis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         </div>
         <div class="book-container">
-            <h2>September</h2>
+            <h2>September:</h2>
             <img src="images/books/klara.jpg" alt="Klara and the Sun book cover" width="350px">
-            <h3>Klara and the Sun by Kazuo Ishiguro</h3>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <h3>"Klara and the Sun" by Kazuo Ishiguro</h3>
+            <p>Synopsis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         </div>
-        <button>and more!</button>
+    </div>
     </section>
 
     <section class="newsletter">
+        <h2>Join our Newsletter!</h2>
+        <p> Stay up to date on what we're reading, events near you, and how our readers are shaping the reading world. Also have an opportunity each week to submit a book you think the club should be reading that we haven't read before!</p>
         <form class="signup">
             <input placeholder="Name" type="text" id="fname" name="fname">
             <input placeholder="Email Address" type="text" id="fname" name="fname">
@@ -72,6 +103,7 @@
               </div>
         </form>
     </section>
+
     <footer>
         <img src="images/horizontal-green-full-logo.png" alt="green bg logo" width="300px">
         <ul>
